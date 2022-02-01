@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/c1GYisRQVGuBJlrWZ2NliwYA7JjeNvCMGWIGU0EBj/NozlgdI/qjaGX0Gf814ZznFEHN5N556rpJYpqnKVVwQ==",
+  "dgSpecHash": "1Kfoa60pZrb8T8rmGLu+/OOWEkDiUatVkGbH/OINJRz7ARghMgds3Ky+DbAQYi9N2cswPE1xyXsbvm0NTcDxMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ProyectoEntity\\Modelo.csproj",
+  "projectFilePath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ModeloDB\\ModeloDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

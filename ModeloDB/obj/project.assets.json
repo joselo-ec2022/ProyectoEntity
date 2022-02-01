@@ -1507,6 +1507,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Modelo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
+        },
+        "compile": {
+          "bin/placeholder/Modelo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Modelo.dll": {}
+        }
       }
     }
   },
@@ -5751,13 +5765,17 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Modelo/1.0.0": {
+      "type": "project",
+      "path": "../ProyectoEntity/Modelo.csproj",
+      "msbuildProject": "../ProyectoEntity/Modelo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.EntityFrameworkCore >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.13"
+      "Modelo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5766,11 +5784,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ProyectoEntity\\Modelo.csproj",
-      "projectName": "Modelo",
-      "projectPath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ProyectoEntity\\Modelo.csproj",
+      "projectUniqueName": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ModeloDB\\ModeloDB.csproj",
+      "projectName": "ModeloDB",
+      "projectPath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ModeloDB\\ModeloDB.csproj",
       "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ProyectoEntity\\obj\\",
+      "outputPath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ModeloDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5786,7 +5804,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ProyectoEntity\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\josel\\source\\repos\\ProyectoEntity\\ProyectoEntity\\Modelo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5799,17 +5821,9 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[5.0.13, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.13, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[5.0.13, )"
           }
